@@ -1,6 +1,11 @@
 # For documentation on this file, see:
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
+
+# Luca Gen 2021: I have commented out most features in the this document to have bare-bones home page.
+# If required in the future just un-comment the lines you want back by removing the "#".
+
+
 entries:
   - title: info
     entries:
@@ -11,30 +16,30 @@ entries:
 
   - title: all posts
     post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
+#      limit: 5
+#      show_more: true
+#      show_more_text: See archive...
+#      show_more_url: archive.html
 
-  - title: posts by category
-    post_list:
-      category: example2
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
+#  - title: posts by category
+#    post_list:
+#      category: example2
+#      show_more: true
+#      show_more_text: See more posts...
+#      show_more_url: example2-archive.html
 
 #  - title: rss
 #    url: feed.xml
   
-  - title: another list
-    entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
-          - title: Converting LUX to Light Value
-            url: LUX2LV.html
+#  - title: another list
+#    entries:
+#      - title: with subitems
+#        entries:
+#          - title: with subsubitems
+#          - title: example page
+#            url: about
+#          - title: Converting LUX to Light Value
+#            url: LUX2LV.html
 #  - title: PRO TIP
 #    entries:
 #      - title: to edit this menu, edit _data/menu.yml file
