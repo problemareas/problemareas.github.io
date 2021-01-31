@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Switching between LUX and Light Values
-subtitle: How to determine exposure from LED panels LUX specifications
 slug: luxToEv
 ---
 
+### How to determine exposure from LED panels LUX specifications
 
 Setting up the conversion functions:
 
