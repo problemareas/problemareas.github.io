@@ -35,7 +35,7 @@ KnitPost <- function(bashwd = "", convert_file = "", overwrite = FALSE) {
   cache.path <- paste0(site.path, "_cache")
   
   require(knitr)
-  render_jekyll(highlight = "pygments")
+  render_jekyll(highlight = "none") # was "pygments" (Luca 2021.01.31)
   # "base.dir is never used when composing the URL of the figures; it is
   # only used to save the figures to a different directory, which can
   # be useful when you do not want the figures to be saved under the

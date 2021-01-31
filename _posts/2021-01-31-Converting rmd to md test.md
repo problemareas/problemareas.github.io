@@ -21,9 +21,7 @@ As a result, all you need to do is write your blog posts (R Markdown documents).
 You must have installed the packages **blogdown** (>= 0.0.55).
 
 
-{% highlight r %}
-devtools::install_github('rstudio/blogdown')
-{% endhighlight %}
+    devtools::install_github('rstudio/blogdown')
 
 Of course, you have to install [Jekyll](http://jekyllrb.com) as well. For Windows users, you have to make sure `jekyll` can be found from your environment variable `PATH`, i.e., R can call it via `system('jekyll')`. This is normally not an issue for Linux or macOS users (`gem install jekyll` is enough).
 
@@ -32,39 +30,21 @@ Of course, you have to install [Jekyll](http://jekyllrb.com) as well. For Window
 Now we write some R code chunks in this post. For example,
 
 
-{% highlight r %}
-options(digits = 3)
-cat("hello world!")
-{% endhighlight %}
+    options(digits = 3)
+    cat("hello world!")
 
+    ## hello world!
 
+    set.seed(123)
+    (x = rnorm(40) + 10)
 
-{% highlight text %}
-## hello world!
-{% endhighlight %}
+    ##  [1]  9.44  9.77 11.56 10.07 10.13 11.72 10.46  8.73  9.31  9.55 11.22
+    ## [12] 10.36 10.40 10.11  9.44 11.79 10.50  8.03 10.70  9.53  8.93  9.78
+    ## [23]  8.97  9.27  9.37  8.31 10.84 10.15  8.86 11.25 10.43  9.70 10.90
+    ## [34] 10.88 10.82 10.69 10.55  9.94  9.69  9.62
 
-
-
-{% highlight r %}
-set.seed(123)
-(x = rnorm(40) + 10)
-{% endhighlight %}
-
-
-
-{% highlight text %}
-##  [1]  9.44  9.77 11.56 10.07 10.13 11.72 10.46  8.73  9.31  9.55 11.22
-## [12] 10.36 10.40 10.11  9.44 11.79 10.50  8.03 10.70  9.53  8.93  9.78
-## [23]  8.97  9.27  9.37  8.31 10.84 10.15  8.86 11.25 10.43  9.70 10.90
-## [34] 10.88 10.82 10.69 10.55  9.94  9.69  9.62
-{% endhighlight %}
-
-
-
-{% highlight r %}
-# generate a table
-knitr::kable(head(mtcars))
-{% endhighlight %}
+    # generate a table
+    knitr::kable(head(mtcars))
 
 
 
@@ -77,41 +57,23 @@ knitr::kable(head(mtcars))
 |Hornet Sportabout | 18.7|   8|  360| 175| 3.15| 3.44| 17.0|  0|  0|    3|    2|
 |Valiant           | 18.1|   6|  225| 105| 2.76| 3.46| 20.2|  1|  0|    3|    1|
 
+    (function() {
+      if (TRUE) 1 + 1  # a boring comment
+    })()
 
+    ## [1] 2
 
-{% highlight r %}
-(function() {
-  if (TRUE) 1 + 1  # a boring comment
-})()
-{% endhighlight %}
+    names(formals(servr::jekyll))  # arguments of the jekyll() function
 
-
-
-{% highlight text %}
-## [1] 2
-{% endhighlight %}
-
-
-
-{% highlight r %}
-names(formals(servr::jekyll))  # arguments of the jekyll() function
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## [1] "dir"     "input"   "output"  "script"  "serve"   "command" "..."
-{% endhighlight %}
+    ## [1] "dir"     "input"   "output"  "script"  "serve"   "command" "..."
 
 Just to test inline R expressions[^2] in **knitr**, we know the first element in `x` (created in the code chunk above) is 9.44. You can certainly draw some graphs as well:
 
 [^2]: The syntax in R Markdown for inline expressions is `` `r code` ``, where `code` is the R expression that you want to evaluate, e.g. `x[1]`.
 
 
-{% highlight r %}
-par(mar = c(4, 4, .1, .1))
-plot(cars, pch = 19, col = 'red')  # a scatterplot
-{% endhighlight %}
+    par(mar = c(4, 4, .1, .1))
+    plot(cars, pch = 19, col = 'red')  # a scatterplot
 
 ![A scatterplot of the cars data](/figures/cars-1.svg)
 
