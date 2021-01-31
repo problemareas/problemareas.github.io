@@ -3,8 +3,10 @@ title: problemareas # name of the site
 # email: riccardo.graziosi97@gmail.com # email of site's author
 # url: https://riggraz.dev # root address of the site
 baseurl: '' # subpath of the site, e.g. "/blog"
-description: > # description of the site (multiple lines allowed)
+# description: > # description of the site (multiple lines allowed)
 #   A (nearly) no-CSS, fast, minimalist Jekyll theme.
+
+exclude: ['*.Rmd']
 
 permalink: /:slug.html
 
