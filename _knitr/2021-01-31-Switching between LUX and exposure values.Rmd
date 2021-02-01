@@ -3,7 +3,7 @@ title: "Conversion between Lux and Exposure Values"
 layout: post
 category: photography
 ---
-
+ 
 ***How to determine exposure from LED panels Lux specifications, for photographers***
 
 LED panels are getting cheaper and more readily available and photographers may consider using them as a substitute to strobes. Here I am talking about the small, battery powered panels normally used by videographers, not the big continuous lights used in photography studios or film sets. These panels are the size and weight of small strobe units and can be mounted on the camera hot shoe. In fact the form factor is quite convenient, being very similar to smarphones. And additionally, they work independently form the camer system, so, for instance, they can be used to vintage film cameras equipped with only a "cold shoe".
