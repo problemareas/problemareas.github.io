@@ -14,7 +14,7 @@ Luckily, we can convert between EV and lx. That is to say that it is possible to
 
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/c276b05aae70d59e4b5d3fd6816efd74503d9bfc)
 
-Where "E" is illuminance in Lux, and "EV" is the Exposure Value at iso 100 (this corresponds to the Light Value (LV)).
+Where "*E*" is illuminance in Lux, and "EV" is the Exposure Value at iso 100 (this corresponds to the Light Value (LV)).
 
 I was interested in the a very portable panel for use in macrophotography, as a fill light in portraits (quite rarely) or as a main light for a portrait-range, dark scene. An example of such tool is the [Lume Cube Light Go](https://lumecube.com/products/panel-go) which is rated at 1080 lx measured 0.5 metres away. I wanted to know if I could use such a light for the above scenes. To take the most demanding one (i.e. as main light), I would like to know if it can give me enough light to shoot hand-held when focussing at 1 m with ISO 400 film and a 50 mm f:2.8 lens. With my film SLR I can hand-hold sharp shots with a 50mm down to 1/60''. This means LV7 or EV9 at ISO 400.
 
@@ -45,4 +45,4 @@ This means that by keeping the panel on-camera, I could just barely expose for a
          adj = c(1,-1))
 
 ![plot of chunk plot](/figures/plot-1.svg)
-To conclude, the [Lume Cube Light Go](https://lumecube.com/products/panel-go) may just be usefull in very limited circumstances, and not really be able to subtitue a strobe for most of the uses a strobe is normally used for...
+To conclude, the [Lume Cube Light Go](https://lumecube.com/products/panel-go), or any other LED panel of similar power, may just be usefull in very limited circumstances, and not really be able to subtitue a strobe for most of the uses a strobe is normally used for...
