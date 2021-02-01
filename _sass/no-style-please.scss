@@ -64,13 +64,14 @@ table, th, td {
   border: thin solid black;
   border-collapse: collapse;
   padding: 0.4rem;
+  font-size: .9rem;   // added
 }
 
 code {
   color: white;
   background: black;
-  font-size: .8rem;   // added
-  line-height: 1;    // added
+  font-size: .9rem;   // added
+  // line-height: 1;    // added
 }
 
 div.highlighter-rouge code {
