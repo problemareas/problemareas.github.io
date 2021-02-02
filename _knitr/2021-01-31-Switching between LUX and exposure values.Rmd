@@ -15,7 +15,7 @@ The downside of these units is that they are far less powerful than strobes of e
 
 Luckily, we can convert between EV and lx. That is to say that it is possible to determine the photographic exposure necessary to photograph an object receiving a given amount of light expressed in lx. The conversion formula found on [Wikipedia](http://en.wikipedia.org/wiki/Exposure_value#EV_as_a_measure_of_luminance_and_illuminance) is simple:
 
-![](https://latex.codecogs.com/gif.latex?E%3D2.5*2%5E%7BLV%7D)
+![](https://latex.codecogs.com/svg.latex?E%3D2.5*2%5E%7BLV%7D)
 
 Where "*E*" is illuminance in Lux, and "EV" is the Exposure Value at ISO 100 (this corresponds to the Light Value (LV)).
 
