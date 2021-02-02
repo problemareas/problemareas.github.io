@@ -9,6 +9,9 @@ options(stringsAsFactors = FALSE)
 # http://gtog.github.io/workflow/2013/06/12/rmarkdown-to-rbloggers/
 
 KnitPost <- function(bashwd = "", convert_file = "", overwrite = FALSE) {
+  
+  # Run KnitPost(overwrite = T) to update all .rmd files.
+  
   # CONVERT ALL RMD FILES TO MARKDOWN?
   #    REQUIRED: overwrite
   # CONVERT A SPECIFIC RMD FILE TO MARKDOWN?
