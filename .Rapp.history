@@ -1,0 +1,270 @@
+plot(exp(-(seq(0,1,.1))))
+-(seq(0,1,.1)
+)
+plot(exp(100:110))
+plot(exp(110:100))
+plot(exp(seq(1,0,.1)))
+plot(exp(seq(1,0,-.1)))
+plot(exp(-1:-10))
+plot(exp(seq(0,-1,-.1)))
+exp(1)
+exp(-1)
+exp(-10)
+exp(-1000)
+plot(exp(-(10:1000)),type='l')
+plot(exp(-(10:100)),type='l')
+plot(exp(-(1:10)),type='l')
+plot(-(1:10,exp(-(1:10)),type='l')
+plot(-1:10,exp(-(1:10)),type='l')
+plot(-(1:10),exp(-(1:10)),type='l')
+-(1:10)
+x <- 500:700
+y <- A*exp(-8/8*x)
+A <- .8
+x <- 500:700#
+A <- .8#
+y <- A*exp(-8/8*x)
+plot(x,y)
+x <- 500:700#
+A <- .8#
+y <- A*exp(-80/8*x)#
+plot(x,y)
+x <- 500:700#
+A <- .8#
+y <- A*exp(-800/8*x)#
+plot(x,y)
+x <- 500:700#
+A <- .8#
+y <- A*exp(-800/.8*x)#
+plot(x,y)
+plot(1/exp(10:1))
+library(microclima)
+?micro.ncep
+?microclima::micro.ncep
+?microclima:::micro.ncep
+library(NiceMapR)
+library(NicheMapR)
+?micro.ncep
+??micro.ncep
+pwd
+getwd()
+usr <- 'lb752'#
+pw <- '@tcoli$dtc0d'
+RCurl::ftpUpload('test.txt',#
+                     paste0("ftp://144.173.73.227/data/share/test.txt"),#
+                     userpwd = paste0(usr,":",pw))
+usr <- 'lb275'
+RCurl::ftpUpload('test.txt',#
+                     paste0("ftp://144.173.73.227/data/share/test.txt"),#
+                     userpwd = paste0(usr,":",pw))
+?list.dirs
+?zip
+?RCurl::ftpUpload
+system.file("examples", "system.png", package = "RCurl")
+getwd()
+f
+f <- list.dirs('.', full.names=T,recursive=F)
+f
+f <- list.dirs('', full.names=T,recursive=F)
+f
+f <- list.dirs(' full.names=T,recursive=F)
+f <- list.dirs(full.names=T,recursive=F)
+f
+getwd()
+f <- list.dirs( getwd(), full.names=T,recursive=F)
+f
+f[44]
+class(f[1])
+f <- list.dirs( getwd(), full.names=T,recursive=F)
+f
+f<-f[44:45]
+f
+i=1
+files2zip <- dir(f[i], full.names = TRUE)
+file2zip
+files2zip
+z <- zip(zipfile = f[i], files = files2zip)
+s
+z
+list.files
+list.files()
+list.dirs()
+list.dirs(recursive = F)
+f <- dir('/home/ISAD/lb725/cropSuit/CrSuitPoints')
+f
+f <- dir()
+f
+f <- list.dirs('.', recursive= F, all.files = F)
+f <- list.dirs('.', recursive= F)
+f
+f <- dir('.')
+f
+f <- dir('.')
+f
+dir()
+dir('MEGA')
+dir('MEGA', pattern="^Car")
+f <- dir('.', pattern = '^Test')
+f
+f <- f[1:@]
+f <- f[1:2]
+f
+i=1
+files2zip <- dir(f[i], full.names = F)
+files2zip
+z <- zip(zipfile = f[i], files = files2zip)
+z
+files2zip
+f[1]
+f <- dir('.', pattern = '^Test')
+f
+files2zip <- dir(f[i], full.names = F)
+files2zip
+zip(zipfile = f[i], files = files2zip)
+paste0(f[i], '.zip')
+cat(1:10)
+sadlfkjasdf
+cat(1:10)
+m <- t(m)
+library(WofostR)
+cropVarList
+sl <- terrain(demsq100)
+library(raster)
+?terrain
+is_raster
+?is_raster
+??is_raster
+2^5
+2^6
+sqrt(128)
+2^1
+2^0
+2^2
+2^3
+2010*56
+length(WofostR::cropVarList[,1])
+sge <- data.frame('crop' =#
+                    rep(paste(WofostR::cropVarList[,1],#
+                              WofostR::cropVarList[,2],#
+                              sep = '_'),#
+                        each = 210),
+'tile' = rep(1:210, nrow(WofostR::cropVarList)))
+sge
+head(sge)
+sgeArr <- data.frame(1:nrow(ARGS),1:nrow(ARGS))
+ARGS=sge
+sgeArr <- data.frame(1:nrow(ARGS),1:nrow(ARGS))
+head(sgeArr)
+nrow(sgeArr)
+allcrops <- WofostR::cropVarList
+allcrops <- paste(allcrops[,1], allcrops[,2], sep = '_')
+allcrops
+?log
+log(4)
+log(4, base =  2)
+log(200, base =  2)
+log(100, base =  2)
+library(WofostR)
+?Wofost
+Wofost
+?WofostFD
+out <- readRDS('~/Downloads/yield.rds')
+out
+library(raster)
+out
+plot(out)
+plot(out[[1]])
+hist(out[[1]])
+out[[1]]
+plot(out)
+plot(out[[15]])
+?mean
+mean(out[[15]])
+plot(mean(out[[15]]))
+mean(out)
+mean(out, na.rm = T)
+out <- readRDS( '~/Downloads/seasonLength.rds')
+out
+plot(out)
+hist(out)
+hist(out[[1]])
+hist(out[[15]])
+values(out)
+max(values(out), na.rm = T)
+min(values(out), na.rm = T)
+mn <- mean(out, na.rm= T)
+mn
+plot(mn)
+mn
+plot(mn)
+out = read.rds('~/MEGA/Climatehub/CropSuitability/NASboxOutput/5yearAverages_2042-2047/barley_Spring_barley_301/yield.rds')
+out = read.RDS('~/MEGA/Climatehub/CropSuitability/NASboxOutput/5yearAverages_2042-2047/barley_Spring_barley_301/yield.rds')
+out = readRDS('~/MEGA/Climatehub/CropSuitability/NASboxOutput/5yearAverages_2042-2047/barley_Spring_barley_301/yield.rds')
+out
+plot(out)
+plot(out[[1]])
+sl <- readRDS('~/MEGA/Climatehub/CropSuitability/NASboxOutput/5yearAverages_2042-2047/barley_Spring_barley_301/seasonLength.rds')
+sl
+plot(sl)
+100*40/70
+100*39/70
+100*43/69
+100*70/40
+sqrt(1.6e11)
+1*10
+1+10+1+10
+x=sqrt(10)
+x
+x+x+x+x
+x*x
+10000*.01
+20410/10000
+20410/100000
+20410/1000000
+sqrt(5/6)
+sqrt(5)/sqrt(6)
+exp(log(10))
+exp(12)
+exp(15)
+exp(12)\10000
+exp(12)/10000
+exp(15)/10000
+sqrt(exp(.55))/10000
+sqrt(exp(.55))
+sqrt(exp(.7))
+exp(.7)
+sqrt(.7)
+exp(sqrt(.7))
+exp(sqrt(.5))
+??krige
+library(gstat)
+?krige
+?sys.time
+?Sys.time
+Sys.time
+Sys.time()
+?raster::focal()
+library(fs)
+?st_make_grid
+library(sf)
+?st_make_grid
+library(WofostR)
+browseVignettes('WofostR')
+astro
+.astro
+cropvarlist
+cropVarList
+cropVarList()
+WofostR::cropVarList
+cropVarList
+cat(asdfasdf\nasdf)
+cat("asdfasdf\nasdf")
+27,731.56*1.0818
+27731.56*1.0818
+100*15/250
+1000*15/250
+297 - 189.9 - 1
+96.9 + 189.9 + 1
+library(raster)
+getwd()
+raster("supportData/FieldShapeIndex.grd")
