@@ -2,7 +2,7 @@ title: problem areas photography # name of the site
 # author: Are Prob # name of site's author
 # email: riccardo.graziosi97@gmail.com # email of site's author
 # url: https://riggraz.dev # root address of the site
-baseurl: "/Photography" # subpath of the site, e.g. "/blog"
+baseurl: '' # subpath of the site, e.g. "/blog"
 # description: > # description of the site (multiple lines allowed)
 #   A (nearly) no-CSS, fast, minimalist Jekyll theme.
 
