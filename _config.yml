@@ -1,5 +1,5 @@
 title: problem areas # name of the site
-# author: Riccardo Graziosi # name of site's author
+# author: Are Prob # name of site's author
 # email: riccardo.graziosi97@gmail.com # email of site's author
 # url: https://riggraz.dev # root address of the site
 baseurl: '' # subpath of the site, e.g. "/blog"
@@ -15,6 +15,8 @@ favicon: "logo.png" # name+extension of favicon (which must be put on the root f
 
 # theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 remote_theme: riggraz/no-style-please
+
+
 
 theme_config:
   appearance: "light" # can be "light", "dark" or "auto"
